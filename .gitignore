@@ -1,0 +1,12 @@
+# ignore files
+
+*.class
+
+.classpath 
+.project
+.settings/
+
+target/
+test_Db/
+
+derby.log

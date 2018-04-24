@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.uniandes.spl</groupId>
+	<artifactId>ejemplo-jpa</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>ejemplo-jpa</name>
+	<description>Ejemplo de SPL con persistencia de clases JPA y Maven</description>
+
+	<properties>
+    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+	</properties>
+
+	<modules>
+		<module>datos.usuario.core</module>
+		<module>datos.usuario.simple</module>
+		<module>datos.usuario.extendido</module>
+		<module>jpql-terminal</module>
+	</modules>
+
+</project>
